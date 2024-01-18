@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <script src="Js/scrip.js"></script>
+    <header>
+        <h1>Kalkulator Matematik Persegi</h1>
+        <h4>Welcome to Kalkulator Matematik Persegi</h4>
+        <p>Sebuah web sederhana yang berfungsi untuk menghitung luas dan keliling bangun datar</p>
+    </header>
+
+    <div class="tab">
+        <button class="tablinks active" onclick="opentab(event, 'Luas Persegi')">Luas Persegi</button>
+        <button class="tablinks" onclick="opentab(event, 'Keliling Persegi')">Keliling Persegi</button>
+    </div>
+
+    <div id="Luas Persegi" class="tabcontent active" >
+        <h1>Luas Persegi</h1>
+        <img class="tengah" src="Persegi.jpg" alt="Persegi"width="300" height="300"/>
+        <h3>Bujur Sangkar</h3>
+        <p >Rumus Luas Persegi Yaitu:</p>
+        <h2>L= S x S</h2>
+        <p>Dimana:</p>
+        <p>L= Luas</p>
+        <p>S= Sisi</p>
+        <div class="inputsection">
+            <label for="" id="lblsquareside">Hitung Luas Persegi</label>
+            <input type="number" id="squareside" placeholder="Masukkan Luas sisi">
+        </div>
+        <div class="buttons">
+            <button id="countbutton" onclick="Luaspersegi('luas')">Hitung</button>
+            <button id="countbutton" onclick="resetForm('Luas Persegi')">Reset</button>
+        </div>
+        <div id="rumus"></div>
+        <div id="hasil"></div>
+        <div id="result"></div>
+    </div>
+      
+    <div id="Keliling Persegi" class="tabcontent active">
+        <h1>Keliling Persegi</h1>
+        <img class="tengah" src="Persegi.jpg" alt="Persegi"width="300" height="300"/>
+        <h3>Bujur Sangkar</h3>
+        <p >Rumus Keliling Persegi Yaitu:</p>
+        <h2>K = 4 x S</h2>
+        <p>Dimana:</p>
+        <p>K= Keliling</p>
+        <p>S= Sisi</p>
+        <div class="inputsection">
+            <label for="" id="lblsquareperimeter">Hitung Keliling Persegi</label>
+            <input type="number" id="squaresperimeter" placeholder="Masukkan Keliling sisi">
+        </div>
+        <div class="buttons">
+            <button id="countbutton" onclick="Kelilingpersegi()">Hitung</button>
+            <button id="countbutton" onclick="resetForm('Keliling Persegi')">Reset</button>
+        </div>
+        <div id="rumuskeliling"></div>
+        <div id="hasilkeliling"></div>
+        <div id="Hasil"></div>
+
+    </div>
+
+    <img class="tengah" src="Revou.jpg" width="600">
+</body>
+</html>
