@@ -1,0 +1,154 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+}
+header {
+    text-align: center;
+}
+header h1 {
+    color: rgb(252, 252, 252);
+    background-color: rgb(55, 55, 218);
+    font-size: 50px;
+}
+header h2 {
+    background-color: rgb(55, 55, 218);
+    font-size: 30px;
+}
+header h4 {
+    color: chocolate;
+    font-size: 20px;
+    margin-top: 40px;
+}
+header p {
+    text-align: center;
+}
+h1 {
+    color: rgb(252, 252, 252);
+    background-color: rgb(55, 55, 218);
+    font-size: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+img.tengah{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    text-align: left;
+    line-height: 5px;
+}
+.tab {
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.tab button {
+    display: block;
+    background-color: rgb(167, 167, 253);
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 1s;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+ 
+  .tab button:hover {
+    background-color: #ddd;
+  }
+
+
+.tab button:focus {
+    border: solid rgb(4, 4, 4);
+  }
+
+  .tabcontent {
+    display: none;
+
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-top: 10px;
+
+  }
+.inputsection {
+    display: flex;
+    flex-direction: column;
+}
+#squareside {
+    outline: none;
+    border-radius: 10px;
+    border: solid coral;
+    padding: 10px;
+    margin-top: 10px;
+}
+#squareside:focus {
+    border: solid rgb(197, 53, 0);
+}
+button {
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#countbutton {
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#countbutton:focus {
+    border: solid rgb(197, 53, 0);
+
+}
+#lblsquareside{
+    font-size: 30px;
+    text-align: center;
+}
+#squaresperimeter {
+    outline: none;
+    border-radius: 10px;
+    border: solid coral;
+    padding: 10px;
+    margin-top: 10px;
+}
+#squaresperimeter:focus {
+    border: solid rgb(197, 53, 0);
+}
+#lblsquareperimeter{
+    font-size: 30px;
+    text-align: center;
+}
+button:active {
+    background-color: rgb(2, 2, 41);
+    
+}
+#result {
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+  }
+  
+#Hasil {
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+  }
+   
